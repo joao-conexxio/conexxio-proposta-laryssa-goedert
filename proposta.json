@@ -1,0 +1,305 @@
+{
+  "slug": "laryssa-goedert",
+  "negocio": {
+    "nome": "Dra. Laryssa Goedert",
+    "whatsapp": "5547988138184",
+    "telefone": "(47) 98813-8184",
+    "funcionamento": {
+      "seg": "09:00-22:00",
+      "ter": "09:00-22:00",
+      "qua": "09:00-22:00",
+      "qui": "09:00-22:00",
+      "sex": "09:00-20:00",
+      "sab": "09:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim Sofia · Joinville",
+        "endereco": "R. Manoel Silveira, 125, sala 01 – Jardim Sofia, Joinville – SC, 89223-470",
+        "telefone": "(47) 98813-8184",
+        "horario": "Segunda a quinta, 9h às 22h · Sexta, 9h às 20h · Sábado, 9h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6B4A36",
+    "brand2": "#3F2B20",
+    "ink": "#2A211C",
+    "bg": "#FAF6F2",
+    "pulse": "#C99A80",
+    "radius": "16px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Método",
+            "href": "#renace"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Botox",
+            "href": "#toxina"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Biomédica esteta",
+        "h1": "Harmonização facial sem perder a sua identidade",
+        "lead": "Rejuvenescimento planejado por camadas, com toxina, preenchimento e bioestimulador na medida do seu rosto. Atendimento com a Dra. Laryssa do começo ao fim, no Jardim Sofia.",
+        "cta": "Agendar consulta pelo WhatsApp",
+        "ctaSecundario": "Conhecer o método",
+        "ctaSecundarioHref": "#renace",
+        "selo": "naturalidade · confiança · essência ·",
+        "cardTitulo": "Fale com a Dra. Laryssa"
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Harmonização facial",
+          "Toxina botulínica",
+          "Preenchimento com ácido hialurônico",
+          "Bioestimulador de colágeno",
+          "Olheiras",
+          "Peeling"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "Quem atende",
+        "texto": [
+          "Sou a Laryssa, biomédica esteta, e atendo cada paciente pessoalmente, da consulta à revisão.",
+          "O que mais ouço no consultório é medo de ficar artificial. Por isso nada é aplicado sem planejamento: explico o que vou fazer, onde e por quê, e o resultado pode ser construído aos poucos, respeitando a anatomia de cada rosto."
+        ],
+        "autor": "Dra. Laryssa L. Goedert · CRBM 3402"
+      }
+    },
+    {
+      "custom": "blocos/renace.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da consulta. Estes são os procedimentos que a Dra. Laryssa faz no consultório.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Além das linhas da testa e dos olhos, ajuda na boca triste, no contorno do rosto, nas bandas do pescoço e no sorriso gengival.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento com ácido hialurônico",
+            "descricao": "Repõe volume, define mandíbula e queixo e melhora proporções. Aplicado com planejamento, em etapas, quando for o caso.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula a pele a produzir o colágeno que vai se perdendo com os anos. A firmeza melhora aos poucos, de forma gradual.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Olheiras",
+            "descricao": "Para a olheira funda, que a maquiagem não disfarça. O tratamento é indicado depois de avaliar a causa.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Peeling",
+            "descricao": "Renova a superfície da pele e melhora textura, manchas e viço. É a última camada do planejamento.",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/toxina.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "A primeira pergunta pode ser a mais simples",
+        "lead": "Botox ou bioestimulador? Quantos ml? Vou ficar artificial? Em vez de procurar no Google, pergunte direto para quem vai olhar o seu rosto.",
+        "cta": "Chamar a Dra. Laryssa",
+        "contato": "Dra. Laryssa Goedert",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Tenho medo de ficar com cara de preenchida. Dá pra fazer algo natural?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Dá sim, é exatamente assim que eu trabalho 🤍 Tudo começa com um planejamento do seu rosto."
+          },
+          {
+            "de": "paciente",
+            "texto": "E tem horário depois do trabalho?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem! De segunda a quinta atendo até as 22h. Quinta às 19h30 fica bom pra você?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "100",
+            "rotulo": "avaliações de pacientes",
+            "contar": 100
+          },
+          {
+            "valor": "4",
+            "rotulo": "camadas em cada planejamento"
+          },
+          {
+            "valor": "22h",
+            "rotulo": "último horário, de segunda a quinta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as pacientes contam",
+        "itens": [
+          {
+            "texto": "Um atendimento humano, com detalhes muito bem explicados que me passaram toda a segurança. O resultado ficou exatamente como eu esperava: sutil e natural.",
+            "autor": "Iris",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Ela é honesta e explica tudo nos mínimos detalhes. Ambiente confortável, organizado e com estacionamento.",
+            "autor": "Joseane",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Transmite conhecimento, segurança, calma e atenção aos detalhes. Me senti muito tranquila durante os procedimentos.",
+            "autor": "Cariele",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "No Instagram",
+        "lead": "A Dra. Laryssa explica os procedimentos no perfil, sem fórmula pronta.",
+        "perfil": {
+          "texto": "@dralaryssagoedert",
+          "href": "https://www.instagram.com/dralaryssagoedert/"
+        },
+        "itens": [
+          {
+            "imagem": "midia/r-natural.jpg",
+            "legenda": "Sabe aquela harmonização natural?",
+            "link": "https://www.instagram.com/dralaryssagoedert/reel/Daxsf_4R9zc/"
+          },
+          {
+            "imagem": "midia/r-flacidez.jpg",
+            "legenda": "O que muda o rosto com o tempo",
+            "link": "https://www.instagram.com/dralaryssagoedert/reel/DdJv7B6RGPE/"
+          },
+          {
+            "imagem": "midia/r-maquiagem.jpg",
+            "legenda": "O que a maquiagem não esconde",
+            "link": "https://www.instagram.com/dralaryssagoedert/reel/DeejtAhxjJ_/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Vou ficar artificial?",
+            "r": "Esse é o medo mais comum, e é o motivo de tudo começar com planejamento. O objetivo é que você continue parecendo você, só mais descansada. Quando faz sentido, o resultado é construído em etapas."
+          },
+          {
+            "p": "Botox ou bioestimulador?",
+            "r": "Fazem coisas diferentes. A toxina relaxa músculos e suaviza linhas de expressão; o bioestimulador estimula colágeno e melhora a firmeza da pele. Muitas vezes o planejamento usa os dois, em momentos diferentes."
+          },
+          {
+            "p": "Quanto tempo dura o botox?",
+            "r": "Em geral, cerca de quatro meses, mas varia de pessoa para pessoa. Na revisão a Dra. Laryssa conversa com você sobre o melhor intervalo."
+          },
+          {
+            "p": "Quem faz o procedimento?",
+            "r": "A própria Dra. Laryssa, biomédica esteta (CRBM 3402), da consulta à revisão."
+          },
+          {
+            "p": "Tem estacionamento e acessibilidade?",
+            "r": "Tem estacionamento, e a entrada, o banheiro e a vaga são acessíveis para cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/predio.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pelo planejamento do seu rosto",
+        "lead": "Consultório no Jardim Sofia, com horário até as 22h de segunda a quinta e sábado de manhã.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

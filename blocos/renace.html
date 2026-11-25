@@ -1,0 +1,74 @@
+<section class="blk-ren" id="renace">
+  <div class="wrap">
+    <div class="blk-ren__cab" data-reveal>
+      <p class="blk-ren__eyebrow">Método RENACE®</p>
+      <h2 class="blk-ren__titulo">O rosto é tratado por camadas, de dentro para fora.</h2>
+      <p class="blk-ren__lead">Com o tempo, o rosto perde sustentação, gordura e colágeno. A flacidez que aparece na pele é só a última parte dessa história. Por isso o planejamento começa pela base e termina na superfície.</p>
+    </div>
+    <div class="blk-ren__corpo">
+      <div class="blk-ren__arte"><!--foto:midia/r-renace.jpg|Dra. Laryssa Goedert na campanha do método RENACE, com o texto: seu rosto não precisa de outro rosto, precisa de um bom planejamento--></div>
+      <ol class="blk-ren__camadas">
+        <li data-pilha>
+          <span class="blk-ren__n">1</span>
+          <span class="blk-ren__ico"><!--icone:osso--></span>
+          <div>
+            <h3>Sustentação</h3>
+            <p>A estrutura que segura o resto. Contorno de mandíbula e queixo, reposicionamento de tecidos.</p>
+          </div>
+        </li>
+        <li data-pilha>
+          <span class="blk-ren__n">2</span>
+          <span class="blk-ren__ico"><!--icone:gota--></span>
+          <div>
+            <h3>Volume</h3>
+            <p>Devolver o que o tempo levou, sem acrescentar o que você não precisa. Cada ml tem uma função.</p>
+          </div>
+        </li>
+        <li data-pilha>
+          <span class="blk-ren__n">3</span>
+          <span class="blk-ren__ico"><!--icone:rosto--></span>
+          <div>
+            <h3>Expressão</h3>
+            <p>Suavizar os sinais do tempo sem apagar o seu jeito de sorrir, de franzir, de falar.</p>
+          </div>
+        </li>
+        <li data-pilha>
+          <span class="blk-ren__n">4</span>
+          <span class="blk-ren__ico"><!--icone:pele--></span>
+          <div>
+            <h3>Pele</h3>
+            <p>Colágeno, viço e textura. Não basta parecer bem: a qualidade da pele também conta.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <p class="blk-ren__fecho" data-acende>Você continua sendo você. Só que com o tempo trabalhando mais a seu favor.</p>
+  </div>
+</section>
+
+<style>
+.blk-ren{padding-block:var(--sp-section)}
+.blk-ren__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-ren__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-ren__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-ren__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-ren__corpo{position:relative}
+.blk-ren__arte{display:block;aspect-ratio:1;border-radius:var(--radius);overflow:hidden;margin-bottom:var(--sp-4)}
+.blk-ren__arte img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-ren__camadas{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-ren__camadas li{position:relative;display:grid;grid-template-columns:auto 1fr;gap:var(--sp-3);align-items:start;padding:var(--sp-4) var(--sp-3);border-radius:var(--radius);background:color-mix(in srgb,var(--pulse) 10%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 14%,transparent);overflow:hidden}
+.blk-ren__camadas li:nth-child(2){background:color-mix(in srgb,var(--pulse) 18%,var(--bg))}
+.blk-ren__camadas li:nth-child(3){background:color-mix(in srgb,var(--pulse) 26%,var(--bg))}
+.blk-ren__camadas li:nth-child(4){background:color-mix(in srgb,var(--pulse) 34%,var(--bg))}
+.blk-ren__n{position:absolute;right:var(--sp-3);top:.2rem;font-family:var(--f-display);font-size:4.5rem;line-height:1;color:color-mix(in srgb,var(--brand) 16%,transparent)}
+.blk-ren__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--brand)}
+.blk-ren__ico svg{width:100%;height:100%}
+.blk-ren__camadas h3{margin:0 0 .35rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-ren__camadas p{margin:0;color:color-mix(in srgb,var(--ink) 76%,transparent);max-width:34rem}
+.blk-ren__fecho{margin:var(--sp-5) 0 0;font-family:var(--f-display);font-size:clamp(1.5rem,4.5vw,2.4rem);line-height:1.25;color:var(--ink);max-width:44rem;text-wrap:balance}
+@media (min-width:900px){
+  .blk-ren__corpo{display:grid;grid-template-columns:5fr 7fr;gap:var(--sp-5);align-items:center}
+  .blk-ren__arte{display:block;aspect-ratio:1;border-radius:var(--radius);overflow:hidden;box-shadow:0 30px 60px -30px color-mix(in srgb,var(--brand2) 45%,transparent)}
+  .blk-ren__arte img{width:100%;height:100%;object-fit:cover;display:block}
+}
+</style>
